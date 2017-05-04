@@ -1,2 +1,4 @@
 # thermostat
-IoT Year 1 Sem 2 Project 2 Assignment
+WIT IoT yr_1_sem_2 Project
+Author@Jun-Shuo Ng
+References are made from Seeed Studio Serial LCD guide @https://github.com/Seeed-Studio/Serial_LCD
