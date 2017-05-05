@@ -8,17 +8,6 @@
 
 rgb_lcd lcd;
 
-byte heart[8] = {           //initiate heart character
-    0b00000,
-    0b01010,
-    0b11111,
-    0b11111,
-    0b11111,
-    0b01110,
-    0b00100,
-    0b00000
-};
-
 const int pinTemp = A0;      // Grove - Temperature sensor connect to A0
 const int pinButton = 3;     // Grove - Button connect to D3
 
@@ -32,7 +21,6 @@ void setup()
     Serial.begin(9600);                         //begin serial monitoring
     lcd.begin(16, 2);                           //begin LCD
     pinMode(pinButton, INPUT);                  // set button INPUT
-    lcd.createChar(0, heart);                   // create heart character
 }
 
 void loop()
